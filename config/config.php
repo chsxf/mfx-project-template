@@ -5,7 +5,7 @@ use chsxf\MFX\Config;
 Config::load([
     'twig' => [
         'templates' => [
-            'views'
+            '../views'
         ]
     ],
 

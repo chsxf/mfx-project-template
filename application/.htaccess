@@ -14,11 +14,3 @@ RewriteRule . /entrypoint.php [L]
 
 DirectoryIndex entrypoint.php
 Options -Indexes
-
-<Files "composer.*">
-    Require all denied
-</Files>
-
-<Files "\.(md|twig|sql)$">
-    Require all denied
-</Files>
