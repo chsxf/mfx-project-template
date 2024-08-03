@@ -13,4 +13,4 @@ RewriteRule . /entrypoint.php [L]
 </IfModule>
 
 DirectoryIndex entrypoint.php
-Options -Indexes
+Options +FollowSymLinks -Indexes
