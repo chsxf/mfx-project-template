@@ -2,7 +2,7 @@
 
 use chsxf\MFX\Config;
 
-Config::load([
+return new Config([
     'twig' => [
         'templates' => [
             '../views'
